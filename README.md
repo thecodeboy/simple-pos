@@ -33,7 +33,7 @@ Have fun! :violin:
 ## Parts of Speech Tags
 
 Below are the tags that you'll see after running this program.
- - 
+
 CC  - coordinating conjunction
 CD  - cardinal digit
 DT  - determiner
