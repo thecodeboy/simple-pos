@@ -3,14 +3,14 @@ import nltk
 
 # nltk.set_proxy('http://proxy.example.com:3128', ('USERNAME', 'PASSWORD'))
 
-# try:
-#     nltk.data.find('tokenizers/punkt')
-# except LookupError:
-#     nltk.download('punkt')
-# try:
-#     nltk.data.find('taggers/averaged_perceptron_tagger')
-# except LookupError:
-#     nltk.download('averaged_perceptron_tagger')
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
+try:
+    nltk.data.find('taggers/averaged_perceptron_tagger')
+except LookupError:
+    nltk.download('averaged_perceptron_tagger')
 
 
 number_of_arguments = len(sys.argv)
